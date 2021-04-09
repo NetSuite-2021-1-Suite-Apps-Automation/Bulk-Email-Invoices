@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3037240" started-at="2021-04-09T08:04:33Z" finished-at="2021-04-09T08:55:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3037240" started-at="2021-04-09T08:04:33Z" finished-at="2021-04-09T08:55:11Z">
+      <class name="com.qa.testcases.DateRange">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setExtent" is-config="true" duration-ms="263" started-at="2021-04-09T08:04:33Z" finished-at="2021-04-09T08:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="12103" started-at="2021-04-09T08:04:34Z" finished-at="2021-04-09T08:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="date_validations()[pri:1, instance:com.qa.testcases.DateRange@29ca901e]" name="date_validations" duration-ms="236670" started-at="2021-04-09T08:04:46Z" finished-at="2021-04-09T08:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date_validations -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="849" started-at="2021-04-09T08:08:42Z" finished-at="2021-04-09T08:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=date_validations status=SUCCESS method=DateRange.date_validations()[pri:1, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="11657" started-at="2021-04-09T08:08:43Z" finished-at="2021-04-09T08:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="email_sourcing()[pri:2, instance:com.qa.testcases.DateRange@29ca901e]" name="email_sourcing" duration-ms="249482" started-at="2021-04-09T08:08:55Z" finished-at="2021-04-09T08:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_sourcing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="1001" started-at="2021-04-09T08:13:04Z" finished-at="2021-04-09T08:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=email_sourcing status=SUCCESS method=DateRange.email_sourcing()[pri:2, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="11472" started-at="2021-04-09T08:13:05Z" finished-at="2021-04-09T08:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="auto_email_multi_attach()[pri:3, instance:com.qa.testcases.DateRange@29ca901e]" name="auto_email_multi_attach" duration-ms="1535517" started-at="2021-04-09T08:13:17Z" finished-at="2021-04-09T08:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- auto_email_multi_attach -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="985" started-at="2021-04-09T08:38:52Z" finished-at="2021-04-09T08:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=auto_email_multi_attach status=SUCCESS method=DateRange.auto_email_multi_attach()[pri:3, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="12478" started-at="2021-04-09T08:38:53Z" finished-at="2021-04-09T08:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Auto_email()[pri:4, instance:com.qa.testcases.DateRange@29ca901e]" name="Auto_email" duration-ms="410767" started-at="2021-04-09T08:39:06Z" finished-at="2021-04-09T08:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Auto_email -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="948" started-at="2021-04-09T08:45:57Z" finished-at="2021-04-09T08:45:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Auto_email status=SUCCESS method=DateRange.Auto_email()[pri:4, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="13603" started-at="2021-04-09T08:45:58Z" finished-at="2021-04-09T08:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dunning_values_testing()[pri:5, instance:com.qa.testcases.DateRange@29ca901e]" name="dunning_values_testing" duration-ms="337890" started-at="2021-04-09T08:46:11Z" finished-at="2021-04-09T08:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dunning_values_testing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="825" started-at="2021-04-09T08:51:49Z" finished-at="2021-04-09T08:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dunning_values_testing status=SUCCESS method=DateRange.dunning_values_testing()[pri:5, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="setUp" is-config="true" duration-ms="13878" started-at="2021-04-09T08:51:50Z" finished-at="2021-04-09T08:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="configuration()[pri:6, instance:com.qa.testcases.DateRange@29ca901e]" name="configuration" duration-ms="180683" started-at="2021-04-09T08:52:04Z" finished-at="2021-04-09T08:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="tearDown" is-config="true" duration-ms="800" started-at="2021-04-09T08:55:04Z" finished-at="2021-04-09T08:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=configuration status=SUCCESS method=DateRange.configuration()[pri:6, instance:com.qa.testcases.DateRange@29ca901e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.testcases.DateRange@29ca901e]" name="endReport" is-config="true" duration-ms="5322" started-at="2021-04-09T08:55:05Z" finished-at="2021-04-09T08:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.testcases.DateRange -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
